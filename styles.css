@@ -1,0 +1,168 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-top,
+.boxContainer {
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buy,
+.buybtn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.buy {
+    height: 17px;
+    top: 460px;
+    left: 58px;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.buy div {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.buy div:nth-child(1) {
+    color: rgba(255, 107, 130, 1);
+}
+
+button {
+    background: rgba(255, 107, 130, 1);
+    color: white;
+    border: none;
+    width: Fixed (342px);
+    height: Fixed (40px);
+    top: 497px;
+    left: 58px;
+    padding: 10px;
+    border-radius: 4px;
+    gap: 8px;
+
+
+}
+
+.box {
+    width: 343px;
+    Height: 74.11px;
+    padding: auto 2rem;
+    overflow: hidden;
+    transition: 0.5s;
+    border: 1px solid #13a6ab;
+
+}
+
+
+
+.displayBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hiddenBox .size,
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+}
+
+.box.active {
+    height: auto;
+    border-color: #13a6ab;
+}
+
+.active {
+    border: 1px solid #13a6ab;
+}
+
+button {
+    width: 343px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* 
+@media only screen and (max-width: 900px) {
+    .box {
+        width: 50%;
+        height: 80px;
+    }
+    .buy {
+        width: 50%;
+    }
+    .buybtn {
+        width: 50%;
+    }
+    .buybtn button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .subcontainer {
+        width: 90%;
+    }
+    .box {
+        width: 90%;
+    }
+    .buy {
+        width: 90%;
+    }
+    .buybtn {
+        width: 90%;
+    }
+    .buybtn button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .subcontainer {
+        width: 100%;
+    }
+    .box {
+        width: 90%;
+    }
+    .buy {
+        width: 90%;
+    }
+    .buybtn {
+        width: 90%;
+    }
+    .buybtn button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}  */
